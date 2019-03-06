@@ -1,0 +1,55 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: block; /* 2 */
+	border-bottom:1px solid #ccc;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.qa-faqs .left-half, .qa-faqs .right-half {
+	float: left;
+	width: 45%;
+}
+
+.qa-faqs .right-half {
+	margin-left: 5%
+}
+
+.qa-category {
+	margin-bottom: 10px;
+}
+
+.collapsible .qa-faq-answer {
+	display: none;
+}
+
+.open .qa-faq-answer {
+	display: block;
+}
+
+.qa-show-more {
+	display: block;
+	margin: 10px 0 0;
+	font-size: 80%;
+}
+
+#qaplus_searchform {
+	margin-bottom: 20px;
+}
+
+.qaplus_search {
+	width: 50%;
+	margin: 0 10px 0 0;
+}
+/*link size is a little smaller for this section*/
+
+a {text-decoration:none !important; cursor:pointer !important; }
+a:hover { color:#e1e31b text-decoration:none !important; }
+/* a.more {
